@@ -4,16 +4,16 @@ public class Player : MonoBehaviour
 {
     public float speed = 6f;
     public float fuerzaSalto = 8f;
-    public float limiteX = 3f;   // mitad del ancho visible de la cámara
 
+    private float limiteX;
     private Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        limiteX = Camera.main.orthographicSize * Camera.main.aspect;
     }
 
-    // Update is called once per frame
     void Update()
     {
         float h = Input.GetAxis("Horizontal");
@@ -24,6 +24,11 @@ public class Player : MonoBehaviour
         if (pos.x > limiteX) pos.x = -limiteX;
         else if (pos.x < -limiteX) pos.x = limiteX;
         transform.position = pos;
+
+        if (transform.position.y < Camera.main.transform.position.y - 6f)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
