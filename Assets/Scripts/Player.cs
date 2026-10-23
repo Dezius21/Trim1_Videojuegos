@@ -41,4 +41,13 @@ public class Player : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        // Comprobamos si el objeto que hemos tocado tiene la etiqueta "Enemy"
+        if (collider.CompareTag("Enemy"))
+        {
+            // Reinicia la escena al igual que cuando el jugador cae al vacío
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
+        }
+    }
 }
