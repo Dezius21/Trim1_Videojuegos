@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4463097611094891323}
   - component: {fileID: 545737468008006735}
   - component: {fileID: 5501107412563346333}
+  - component: {fileID: 1331189550431753516}
   m_Layer: 0
   m_Name: Square
   m_TagString: Platform
@@ -160,6 +161,18 @@ PlatformEffector2D:
   m_UseSideBounce: 0
   m_SideArc: 1
 --- !u!114 &5501107412563346333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8463544763800586295}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f1be70854306d47abb624e2fe941de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Plataform
+--- !u!114 &1331189550431753516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

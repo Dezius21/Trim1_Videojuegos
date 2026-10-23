@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     private float limitX;
     private Rigidbody2D rb;
+    private Collider2D col;
 
     void Start()
     {
@@ -35,18 +36,22 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Platform"))
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        }
+        if (!collision.gameObject.CompareTag("Platform")) return;
+
+        // Only bounce while falling
+        if (rb.linearVelocity.y > 0.1f) return;
+
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
     }
+
+    
     private void OnTriggerEnter2D(Collider2D collider)
     {
         // Comprobamos si el objeto que hemos tocado tiene la etiqueta "Enemy"
         if (collider.CompareTag("Enemy"))
         {
-            // Reinicia la escena al igual que cuando el jugador cae al vacío
+            // Reinicia la escena al igual que cuando el jugador cae al vacï¿½o
             UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
         }
     }
