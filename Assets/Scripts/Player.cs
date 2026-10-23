@@ -1,17 +1,18 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     public float speed = 6f;
-    public float fuerzaSalto = 8f;
+    public float jumpForce = 8f;
 
-    private float limiteX;
+    private float limitX;
     private Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        limiteX = Camera.main.orthographicSize * Camera.main.aspect;
+        limitX = Camera.main.orthographicSize * Camera.main.aspect;
     }
 
     void Update()
@@ -19,15 +20,16 @@ public class Player : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(h * speed, rb.linearVelocity.y);
 
-        // Salir por un lado y aparecer por el otro
+        // Wrap around the screen sides
         Vector3 pos = transform.position;
-        if (pos.x > limiteX) pos.x = -limiteX;
-        else if (pos.x < -limiteX) pos.x = limiteX;
+        if (pos.x > limitX) pos.x = -limitX;
+        else if (pos.x < -limitX) pos.x = limitX;
         transform.position = pos;
 
+        // Die if falling below the camera view
         if (transform.position.y < Camera.main.transform.position.y - 6f)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
+            SceneManager.LoadScene("Start");
         }
     }
 
@@ -36,7 +38,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Platform"))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
-            rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
 }
