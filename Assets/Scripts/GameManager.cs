@@ -23,4 +23,11 @@ public class GameManager : MonoBehaviour
     {
         playerPoints += 150;
     }
+
+    public void IncreasePlayerPointsHeigth()
+    {
+        playerPoints += 10;
+    }
+
+
 }
