@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
         // Die if falling below the camera view
         if (transform.position.y < Camera.main.transform.position.y - 6f)
         {
+            GameManager.Instance.playerPoints= 0;
             SceneManager.LoadScene("Start");
         }
     }
