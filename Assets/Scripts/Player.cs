@@ -15,6 +15,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col;
 
+    // --- VARIABLE PARA POWER-UPS ---
+    public bool puntuacionDobleActiva = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -95,5 +98,22 @@ public class Player : MonoBehaviour
             // Reinicia la escena al igual que cuando el jugador cae al vac�o
             UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
         }
+    }
+    public void AplicarSuperSalto(float multiplicador)
+    {
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+        rb.AddForce(Vector2.up * (jumpForce * multiplicador), ForceMode2D.Impulse);
+    }
+
+    public void ActivarPuntuacionDoble(float duracion)
+    {
+        StartCoroutine(RutinaPuntuacionDoble(duracion));
+    }
+
+    private System.Collections.IEnumerator RutinaPuntuacionDoble(float duracion)
+    {
+        puntuacionDobleActiva = true;
+        yield return new WaitForSeconds(duracion);
+        puntuacionDobleActiva = false;
     }
 }
