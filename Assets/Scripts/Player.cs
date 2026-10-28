@@ -5,13 +5,14 @@ public class Player : MonoBehaviour
 {
     public float speed = 6f;
     public float jumpForce = 8f;
+    private float limitX;
+    private bool isGrounded = true;
+    private float lastScoredY = float.NegativeInfinity;
 
     public Sprite jumpSprite;
     private Sprite defaultSprite;
-    private bool isGrounded = true;
     private SpriteRenderer spriteRenderer;
 
-    private float limitX;
     private Rigidbody2D rb;
     private Collider2D col;
 
@@ -54,11 +55,13 @@ public class Player : MonoBehaviour
         // Die if falling below the camera view
         if (transform.position.y < Camera.main.transform.position.y - 6f)
         {
+            GameManager.Instance.playerPoints = 0;
             SceneManager.LoadScene("Start");
         }
     }
 
-     private void OnCollisionEnter2D(Collision2D collision)
+     
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!collision.gameObject.CompareTag("Platform")) return;
 
@@ -66,6 +69,19 @@ public class Player : MonoBehaviour
 
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+
+        // Puntuar solo si la plataforma es más alta que la última puntuada
+        float platY = collision.transform.position.y;
+        if (platY > lastScoredY + 0.1f)
+        {
+            lastScoredY = platY;
+            GameManager.Instance.IncreasePlayerPointsHeigth();
+        }
+
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
 
         //CAMBIAR ------------------------------------------------------------------------------------------
 
@@ -96,4 +112,5 @@ public class Player : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
         }
     }
+
 }
