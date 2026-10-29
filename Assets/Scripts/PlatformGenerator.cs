@@ -11,7 +11,7 @@ public class PlatformGenerator : MonoBehaviour
     public float spawnAhead = 12f;
 
     [Range(0f, 1f)]
-    public float coinChance = 0.02f;
+    public float coinChance = 0.2f;
     public float coinOffsetY = 0.5f;
 
     private float nextY = 0f;
