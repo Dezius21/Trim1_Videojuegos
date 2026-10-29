@@ -166,11 +166,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformGenerator
   platformPrefab: {fileID: 8463544763800586295, guid: 084db335848d3e74ea5890d82a85a38c, type: 3}
+  coinPrefab: {fileID: 4998790757051834448, guid: 82f2c86ad4c7d3d45addbe47a6205cd0, type: 3}
   player: {fileID: 978156984}
   maxX: 2.5
   minGap: 1.2
   maxGap: 2.5
   spawnAhead: 12
+  coinChance: 0.2
+  coinOffsetY: 0.8
 --- !u!4 &451848039
 Transform:
   m_ObjectHideFlags: 0
@@ -486,6 +489,52 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1318688771}
   m_SourcePrefab: {fileID: 100100000, guid: 084db335848d3e74ea5890d82a85a38c, type: 3}
+--- !u!1 &974699960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974699962}
+  - component: {fileID: 974699961}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &974699961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974699960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d79b9d9f2c782f4a861d41ce039420c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  playerPoints: 0
+  highScore: 0
+--- !u!4 &974699962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974699960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.32673, y: -1.80916, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &978156984 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2512070724475857824, guid: 245b44a2047d0b34b90810de13038759, type: 3}
@@ -780,3 +829,4 @@ SceneRoots:
   - {fileID: 1497404270}
   - {fileID: 7006864717274838839}
   - {fileID: 451848039}
+  - {fileID: 974699962}
