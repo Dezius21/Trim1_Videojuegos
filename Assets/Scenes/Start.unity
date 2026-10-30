@@ -297,9 +297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c585f0a5a12acc4aa5921a4a7d810d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOver
-  panel: {fileID: 0}
-  scoreText: {fileID: 0}
-  highScoreText: {fileID: 0}
 --- !u!1 &451848037
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,12 +328,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlatformGenerator
   platformPrefab: {fileID: 8463544763800586295, guid: 084db335848d3e74ea5890d82a85a38c, type: 3}
   coinPrefab: {fileID: 4998790757051834448, guid: 82f2c86ad4c7d3d45addbe47a6205cd0, type: 3}
+  powerUpPrefab: {fileID: 737399810498011510, guid: e79a57bc203197f4eb6c60ada385ddf8, type: 3}
+  enemyPrefab: {fileID: 1103975274957048280, guid: c1e92cd3bfe49e54bb3c11240a7d0dd0, type: 3}
   player: {fileID: 978156984}
   maxX: 2.5
   minGap: 1.2
   maxGap: 2.5
   spawnAhead: 12
   coinChance: 0.02
+  powerUpChance: 0.201
+  enemyChance: 0.1
   coinOffsetY: 0.5
 --- !u!4 &451848039
 Transform:
