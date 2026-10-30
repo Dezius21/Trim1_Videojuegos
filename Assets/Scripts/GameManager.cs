@@ -29,5 +29,5 @@ public class GameManager : MonoBehaviour
         playerPoints += 10;
     }
 
-
+  
 }
