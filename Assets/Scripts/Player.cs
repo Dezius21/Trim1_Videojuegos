@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col;
 
+    private bool dead;
+
+
     // --- VARIABLE PARA POWER-UPS ---
     public bool puntuacionDobleActiva = false;
 
@@ -26,10 +29,19 @@ public class Player : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultSprite = spriteRenderer.sprite;
+
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.ResetScore();
+
     }
+
+    
 
     void Update()
     {
+        if (dead) return;
+
         float h = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(h * speed, rb.linearVelocity.y);
 
@@ -55,26 +67,24 @@ public class Player : MonoBehaviour
         else if (pos.x < -limitX) pos.x = limitX;
         transform.position = pos;
 
+   
         // Die if falling below the camera view
         if (transform.position.y < Camera.main.transform.position.y - 6f)
         {
-            GameManager.Instance.playerPoints= 0;
-            SceneManager.LoadScene("Start");
+            Die();
         }
     }
 
-     
+    
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!collision.gameObject.CompareTag("Platform")) return;
-
         if (rb.linearVelocity.y > 0.01f) return;
 
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
-
-        // Puntuar solo si la plataforma es más alta que la última puntuada
         float platY = collision.transform.position.y;
         if (platY > lastScoredY + 0.1f)
         {
@@ -82,15 +92,8 @@ public class Player : MonoBehaviour
             GameManager.Instance.IncreasePlayerPointsHeigth();
         }
 
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-
-
-        //CAMBIAR ------------------------------------------------------------------------------------------
-
-        // --- RESTAURAR SPRITE AL TOCAR PLATAFORMA ---
         isGrounded = true;
-        spriteRenderer.sprite = defaultSprite; // Vuelve a ponerse el sprite normal
+        spriteRenderer.sprite = defaultSprite;
     }
 
     // --- ¡NUEVO MÉTODO AÑADIDO! ---
@@ -105,14 +108,11 @@ public class Player : MonoBehaviour
     }
     //---------------------------------------------------------------------------------------------------------
 
-
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        // Comprobamos si el objeto que hemos tocado tiene la etiqueta "Enemy"
         if (collider.CompareTag("Enemy"))
         {
-            // Reinicia la escena al igual que cuando el jugador cae al vac�o
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
+            Die();
         }
     }
     public void AplicarSuperSalto(float multiplicador)
@@ -132,5 +132,10 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(duracion);
         puntuacionDobleActiva = false;
     }
-
+    void Die()
+    {
+        if (dead) return;
+        dead = true;
+        SceneManager.LoadScene("GameOver");
+    }
 }
