@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public int playerPoints = 0;
     public int highScore = 0;
 
+
     private void Awake()
     {
         if(Instance == null)
