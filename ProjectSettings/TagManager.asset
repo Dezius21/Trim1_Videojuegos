@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platform
   - Enemy
+  - Score
   - Coin
   - PoweUp
   layers:

@@ -30,5 +30,11 @@ public class GameManager : MonoBehaviour
         playerPoints += 10;
     }
 
+    public void ResetScore()
+    {
+        if (playerPoints > highScore) highScore = playerPoints;
+        playerPoints = 0;
+    }
+
 
 }
