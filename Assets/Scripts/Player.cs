@@ -30,8 +30,13 @@ public class Player : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultSprite = spriteRenderer.sprite;
 
-   
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.ResetScore();
+
     }
+
+    
 
     void Update()
     {
