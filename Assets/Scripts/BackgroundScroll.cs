@@ -21,4 +21,6 @@ public class FondoScroll : MonoBehaviour
         float offsetY = cam.position.y / alturaVista * factor;
         rend.material.mainTextureOffset = new Vector2(0f, offsetY);
     }
+
+
 }
