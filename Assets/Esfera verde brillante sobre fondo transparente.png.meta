@@ -1,0 +1,2301 @@
+fileFormatVersion: 2
+guid: ce5c97c088bee7b46845da1e7d51f47a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8328112235229941117
+    second: Esfera verde brillante sobre fondo transparente_0
+  - first:
+      213: -3004348529856672869
+    second: Esfera verde brillante sobre fondo transparente_1
+  - first:
+      213: 160485841420586828
+    second: Esfera verde brillante sobre fondo transparente_2
+  - first:
+      213: 5836332884848654788
+    second: Esfera verde brillante sobre fondo transparente_3
+  - first:
+      213: 5948646610660504720
+    second: Esfera verde brillante sobre fondo transparente_4
+  - first:
+      213: -7993322949069788411
+    second: Esfera verde brillante sobre fondo transparente_5
+  - first:
+      213: 4443112903073711143
+    second: Esfera verde brillante sobre fondo transparente_6
+  - first:
+      213: 702658117355938543
+    second: Esfera verde brillante sobre fondo transparente_7
+  - first:
+      213: -1274463897707077550
+    second: Esfera verde brillante sobre fondo transparente_8
+  - first:
+      213: -528668222644304562
+    second: Esfera verde brillante sobre fondo transparente_9
+  - first:
+      213: -5308255448833989800
+    second: Esfera verde brillante sobre fondo transparente_10
+  - first:
+      213: -8397181423272705301
+    second: Esfera verde brillante sobre fondo transparente_11
+  - first:
+      213: -6520676130796370283
+    second: Esfera verde brillante sobre fondo transparente_12
+  - first:
+      213: 2586489688311991911
+    second: Esfera verde brillante sobre fondo transparente_13
+  - first:
+      213: 6468913582778943509
+    second: Esfera verde brillante sobre fondo transparente_14
+  - first:
+      213: -1239540678257049555
+    second: Esfera verde brillante sobre fondo transparente_15
+  - first:
+      213: 7931315026660599921
+    second: Esfera verde brillante sobre fondo transparente_16
+  - first:
+      213: -8433081137376956356
+    second: Esfera verde brillante sobre fondo transparente_17
+  - first:
+      213: -6329493367226094302
+    second: Esfera verde brillante sobre fondo transparente_18
+  - first:
+      213: -6984701056592998764
+    second: Esfera verde brillante sobre fondo transparente_19
+  - first:
+      213: 345963656492225199
+    second: Esfera verde brillante sobre fondo transparente_20
+  - first:
+      213: 1715589901985003812
+    second: Esfera verde brillante sobre fondo transparente_21
+  - first:
+      213: -6869897925046067743
+    second: Esfera verde brillante sobre fondo transparente_22
+  - first:
+      213: 7225055449151898047
+    second: Esfera verde brillante sobre fondo transparente_23
+  - first:
+      213: -2626715136213298707
+    second: Esfera verde brillante sobre fondo transparente_24
+  - first:
+      213: 150310469340315805
+    second: Esfera verde brillante sobre fondo transparente_25
+  - first:
+      213: -8781306510128778695
+    second: Esfera verde brillante sobre fondo transparente_26
+  - first:
+      213: -4176712158486177692
+    second: Esfera verde brillante sobre fondo transparente_27
+  - first:
+      213: 2712387371766838945
+    second: Esfera verde brillante sobre fondo transparente_28
+  - first:
+      213: 6989412794865071013
+    second: Esfera verde brillante sobre fondo transparente_29
+  - first:
+      213: -3986579717167058514
+    second: Esfera verde brillante sobre fondo transparente_30
+  - first:
+      213: 6947279585729688205
+    second: Esfera verde brillante sobre fondo transparente_31
+  - first:
+      213: -7589047138307401905
+    second: Esfera verde brillante sobre fondo transparente_32
+  - first:
+      213: -7103587952726541103
+    second: Esfera verde brillante sobre fondo transparente_33
+  - first:
+      213: -4662117450818836368
+    second: Esfera verde brillante sobre fondo transparente_34
+  - first:
+      213: -2385790590548585983
+    second: Esfera verde brillante sobre fondo transparente_35
+  - first:
+      213: -6299446202216720799
+    second: Esfera verde brillante sobre fondo transparente_36
+  - first:
+      213: 810352754185467450
+    second: Esfera verde brillante sobre fondo transparente_37
+  - first:
+      213: 7711910651232850248
+    second: Esfera verde brillante sobre fondo transparente_38
+  - first:
+      213: 7292875437501334083
+    second: Esfera verde brillante sobre fondo transparente_39
+  - first:
+      213: 1592499412233385498
+    second: Esfera verde brillante sobre fondo transparente_40
+  - first:
+      213: -6067063021667687246
+    second: Esfera verde brillante sobre fondo transparente_41
+  - first:
+      213: -49769288465148168
+    second: Esfera verde brillante sobre fondo transparente_42
+  - first:
+      213: 3122894630250578679
+    second: Esfera verde brillante sobre fondo transparente_43
+  - first:
+      213: 7294447673525737361
+    second: Esfera verde brillante sobre fondo transparente_44
+  - first:
+      213: 4071118535057634974
+    second: Esfera verde brillante sobre fondo transparente_45
+  - first:
+      213: 1369141439522448094
+    second: Esfera verde brillante sobre fondo transparente_46
+  - first:
+      213: -5941800377900511263
+    second: Esfera verde brillante sobre fondo transparente_47
+  - first:
+      213: 7544657086613322848
+    second: Esfera verde brillante sobre fondo transparente_48
+  - first:
+      213: -6813435642347553538
+    second: Esfera verde brillante sobre fondo transparente_49
+  - first:
+      213: -7189103224415192615
+    second: Esfera verde brillante sobre fondo transparente_50
+  - first:
+      213: -3109353247480431743
+    second: Esfera verde brillante sobre fondo transparente_51
+  - first:
+      213: 7102704909538147605
+    second: Esfera verde brillante sobre fondo transparente_52
+  - first:
+      213: 401153565045385144
+    second: Esfera verde brillante sobre fondo transparente_53
+  - first:
+      213: 1612274985457454419
+    second: Esfera verde brillante sobre fondo transparente_54
+  - first:
+      213: -6275700926923104444
+    second: Esfera verde brillante sobre fondo transparente_55
+  - first:
+      213: 8004655538605667713
+    second: Esfera verde brillante sobre fondo transparente_56
+  - first:
+      213: -1645950862156893306
+    second: Esfera verde brillante sobre fondo transparente_57
+  - first:
+      213: 504947220832174952
+    second: Esfera verde brillante sobre fondo transparente_58
+  - first:
+      213: 1449383996333212249
+    second: Esfera verde brillante sobre fondo transparente_59
+  - first:
+      213: -8954826122527411146
+    second: Esfera verde brillante sobre fondo transparente_60
+  - first:
+      213: 8161483444826194083
+    second: Esfera verde brillante sobre fondo transparente_61
+  - first:
+      213: -5400522038139786666
+    second: Esfera verde brillante sobre fondo transparente_62
+  - first:
+      213: -3172393163339353418
+    second: Esfera verde brillante sobre fondo transparente_63
+  - first:
+      213: -4267820569154792435
+    second: Esfera verde brillante sobre fondo transparente_64
+  - first:
+      213: 3589908570107482866
+    second: Esfera verde brillante sobre fondo transparente_65
+  - first:
+      213: 5988847900895635770
+    second: Esfera verde brillante sobre fondo transparente_66
+  - first:
+      213: -4894392835682709818
+    second: Esfera verde brillante sobre fondo transparente_67
+  - first:
+      213: 6264070364656642043
+    second: Esfera verde brillante sobre fondo transparente_68
+  - first:
+      213: 4662551807331540166
+    second: Esfera verde brillante sobre fondo transparente_69
+  - first:
+      213: -277256015527546846
+    second: Esfera verde brillante sobre fondo transparente_70
+  - first:
+      213: 8106126706331282601
+    second: Esfera verde brillante sobre fondo transparente_71
+  - first:
+      213: 6895767649184360530
+    second: Esfera verde brillante sobre fondo transparente_72
+  - first:
+      213: -1213280590104972167
+    second: Esfera verde brillante sobre fondo transparente_73
+  - first:
+      213: -6280650947352690536
+    second: Esfera verde brillante sobre fondo transparente_74
+  - first:
+      213: -1352165394352377570
+    second: Esfera verde brillante sobre fondo transparente_75
+  - first:
+      213: 3668518201077388341
+    second: Esfera verde brillante sobre fondo transparente_76
+  - first:
+      213: -5169316378979162607
+    second: Esfera verde brillante sobre fondo transparente_77
+  - first:
+      213: 722200480735419251
+    second: Esfera verde brillante sobre fondo transparente_78
+  - first:
+      213: -8078553232844470478
+    second: Esfera verde brillante sobre fondo transparente_79
+  - first:
+      213: 6990258617388433011
+    second: Esfera verde brillante sobre fondo transparente_80
+  - first:
+      213: -4637976586858641287
+    second: Esfera verde brillante sobre fondo transparente_81
+  - first:
+      213: -1727649594236507890
+    second: Esfera verde brillante sobre fondo transparente_82
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1254
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d077624f5639370800000000000000
+      internalID: 8328112235229941117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1229
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b0d680ee86e46d0800000000000000
+      internalID: -3004348529856672869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1231
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f8a51c5092a3200800000000000000
+      internalID: 160485841420586828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_3
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1231
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9b55826d1def050800000000000000
+      internalID: 5836332884848654788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_4
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1231
+        width: 70
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09430ca3396dd8250800000000000000
+      internalID: 5948646610660504720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_5
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1191
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ba7b5d023021190800000000000000
+      internalID: -7993322949069788411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_6
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1173
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724c9ac05ab19ad30800000000000000
+      internalID: 4443112903073711143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_7
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1156
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2ab8bb5d750c900800000000000000
+      internalID: 702658117355938543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_8
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1154
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2502c1266d1305ee0800000000000000
+      internalID: -1274463897707077550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1139
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45cf317d0bc9a8f0800000000000000
+      internalID: -528668222644304562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_10
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853e73b2bc94556b0800000000000000
+      internalID: -5308255448833989800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_11
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1147
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be242575cf7377b80800000000000000
+      internalID: -8397181423272705301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_12
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1138
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59683886b97e185a0800000000000000
+      internalID: -6520676130796370283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1133
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e0c0feaae05e320800000000000000
+      internalID: 2586489688311991911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1124
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5180d3831a236c950800000000000000
+      internalID: 6468913582778943509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2087db02544ccee0800000000000000
+      internalID: -1239540678257049555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_16
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1138
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178a2ddaef0b11e60800000000000000
+      internalID: 7931315026660599921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_17
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1130
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30799cc26da7fa80800000000000000
+      internalID: -8433081137376956356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_18
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1118
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d2c4e415f1928a0800000000000000
+      internalID: -6329493367226094302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_19
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1124
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e8a73456b511f90800000000000000
+      internalID: -6984701056592998764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_20
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1100
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa21a62dc1c1dc400800000000000000
+      internalID: 345963656492225199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_21
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1100
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42930102deffec710800000000000000
+      internalID: 1715589901985003812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_22
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1092
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed9f664c3839a0a0800000000000000
+      internalID: -6869897925046067743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1033
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb10339a6ad844460800000000000000
+      internalID: 7225055449151898047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 983
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de15dd320880c8bd0800000000000000
+      internalID: -2626715136213298707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_25
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 980
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d904d035392061200800000000000000
+      internalID: 150310469340315805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_26
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 969
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932f2ff1148822680800000000000000
+      internalID: -8781306510128778695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_27
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 948
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4685068cb665906c0800000000000000
+      internalID: -4176712158486177692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_28
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 939
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6fa6b91f554a520800000000000000
+      internalID: 2712387371766838945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 923
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3b08ac7e16ff060800000000000000
+      internalID: 6989412794865071013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 930
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1fa797ed2dca8c0800000000000000
+      internalID: -3986579717167058514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_31
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 922
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82bdb699f1b96060800000000000000
+      internalID: 6947279585729688205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_32
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 835
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f471e7116d94ea690800000000000000
+      internalID: -7589047138307401905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_33
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 795
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc7df6b46cfa6d90800000000000000
+      internalID: -7103587952726541103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 29
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0782bc221e4dc4fb0800000000000000
+      internalID: -4662117450818836368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 634
+        width: 6
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102d1ed2918f3eed0800000000000000
+      internalID: -2385790590548585983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_36
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 611
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16650331e0fd398a0800000000000000
+      internalID: -6299446202216720799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 497
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36fbf75983fe3b00800000000000000
+      internalID: 810352754185467450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_38
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 428
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841194ab0e5360b60800000000000000
+      internalID: 7711910651232850248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_39
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 355
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3424073329f753560800000000000000
+      internalID: 7292875437501334083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_40
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 320
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16703b27c1b91610800000000000000
+      internalID: 1592499412233385498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 272
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4e69393567dcba0800000000000000
+      internalID: -6067063021667687246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_42
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 274
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f69f48881f2f4ff0800000000000000
+      internalID: -49769288465148168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_43
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 271
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f28f03de10c65b20800000000000000
+      internalID: 3122894630250578679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_44
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 242
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1971d2de2851b3560800000000000000
+      internalID: 7294447673525737361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_45
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 236
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e967e98ecb48f7830800000000000000
+      internalID: 4071118535057634974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_46
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 152
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2a00e92ea200310800000000000000
+      internalID: 1369141439522448094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_47
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 144
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef45fc890c7a8da0800000000000000
+      internalID: -5941800377900511263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_48
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 130
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c78bf95a104b860800000000000000
+      internalID: 7544657086613322848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_49
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 130
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc73e5e160d171a0800000000000000
+      internalID: -6813435642347553538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_50
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 69
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9fd17f4bc2b3c90800000000000000
+      internalID: -7189103224415192615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_51
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb8ba02bb59d4d0800000000000000
+      internalID: -3109353247480431743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_52
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 117
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51db175cb70e19260800000000000000
+      internalID: 7102704909538147605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_53
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 113
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b769e0ca0f219500800000000000000
+      internalID: 401153565045385144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_54
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 112
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d807c9e83ff5610800000000000000
+      internalID: 1612274985457454419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_55
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 123
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f982ec14b38e8a0800000000000000
+      internalID: -6275700926923104444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_56
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 101
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18534f74dcf361f60800000000000000
+      internalID: 8004655538605667713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_57
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 113
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683f36759686829e0800000000000000
+      internalID: -1645950862156893306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_58
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 101
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863c50072dee10700800000000000000
+      internalID: 504947220832174952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_59
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952c394c01f3d1410800000000000000
+      internalID: 1449383996333212249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_60
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 93
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6347d5516111ab380800000000000000
+      internalID: -8954826122527411146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_61
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 84
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0c811a3f9634170800000000000000
+      internalID: 8161483444826194083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_62
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 71
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a620bc1dd7d05b0800000000000000
+      internalID: -5400522038139786666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_63
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 100
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2b74bd93569f3d0800000000000000
+      internalID: -3172393163339353418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_64
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 95
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d045c62edc7a5c4c0800000000000000
+      internalID: -4267820569154792435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_65
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 81
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2136903dae1d130800000000000000
+      internalID: 3589908570107482866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_66
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 89
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a396ab28f69ac1350800000000000000
+      internalID: 5988847900895635770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_67
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 77
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce4ae5c5af931cb0800000000000000
+      internalID: -4894392835682709818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_68
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 78
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf72965eec27ee650800000000000000
+      internalID: 6264070364656642043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_69
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 90
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc1ade5a26b4b040800000000000000
+      internalID: 4662551807331540166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_70
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 69
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220f3a27f1df62cf0800000000000000
+      internalID: -277256015527546846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_71
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 71
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acee239a4fbe7070800000000000000
+      internalID: 8106126706331282601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_72
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 45
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258a34f3420b2bf50800000000000000
+      internalID: 6895767649184360530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_73
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 17
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974bae54bbf892fe0800000000000000
+      internalID: -1213280590104972167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_74
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 33
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89082dc5d35a6d8a0800000000000000
+      internalID: -6280650947352690536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_75
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 47
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11fc08ecb42c3de0800000000000000
+      internalID: -1352165394352377570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_76
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 72
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534d5430ed139e230800000000000000
+      internalID: 3668518201077388341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_77
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116a65b3426e248b0800000000000000
+      internalID: -5169316378979162607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bd9d6c285c50a00800000000000000
+      internalID: 722200480735419251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_79
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 111
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237c83103a633ef80800000000000000
+      internalID: -8078553232844470478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_80
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 15
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37efc813d23620160800000000000000
+      internalID: 6990258617388433011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_81
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 25
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97846b70ed892afb0800000000000000
+      internalID: -4637976586858641287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esfera verde brillante sobre fondo transparente_82
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e096f27f8d72608e0800000000000000
+      internalID: -1727649594236507890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Esfera verde brillante sobre fondo transparente_0: 8328112235229941117
+      Esfera verde brillante sobre fondo transparente_1: -3004348529856672869
+      Esfera verde brillante sobre fondo transparente_10: -5308255448833989800
+      Esfera verde brillante sobre fondo transparente_11: -8397181423272705301
+      Esfera verde brillante sobre fondo transparente_12: -6520676130796370283
+      Esfera verde brillante sobre fondo transparente_13: 2586489688311991911
+      Esfera verde brillante sobre fondo transparente_14: 6468913582778943509
+      Esfera verde brillante sobre fondo transparente_15: -1239540678257049555
+      Esfera verde brillante sobre fondo transparente_16: 7931315026660599921
+      Esfera verde brillante sobre fondo transparente_17: -8433081137376956356
+      Esfera verde brillante sobre fondo transparente_18: -6329493367226094302
+      Esfera verde brillante sobre fondo transparente_19: -6984701056592998764
+      Esfera verde brillante sobre fondo transparente_2: 160485841420586828
+      Esfera verde brillante sobre fondo transparente_20: 345963656492225199
+      Esfera verde brillante sobre fondo transparente_21: 1715589901985003812
+      Esfera verde brillante sobre fondo transparente_22: -6869897925046067743
+      Esfera verde brillante sobre fondo transparente_23: 7225055449151898047
+      Esfera verde brillante sobre fondo transparente_24: -2626715136213298707
+      Esfera verde brillante sobre fondo transparente_25: 150310469340315805
+      Esfera verde brillante sobre fondo transparente_26: -8781306510128778695
+      Esfera verde brillante sobre fondo transparente_27: -4176712158486177692
+      Esfera verde brillante sobre fondo transparente_28: 2712387371766838945
+      Esfera verde brillante sobre fondo transparente_29: 6989412794865071013
+      Esfera verde brillante sobre fondo transparente_3: 5836332884848654788
+      Esfera verde brillante sobre fondo transparente_30: -3986579717167058514
+      Esfera verde brillante sobre fondo transparente_31: 6947279585729688205
+      Esfera verde brillante sobre fondo transparente_32: -7589047138307401905
+      Esfera verde brillante sobre fondo transparente_33: -7103587952726541103
+      Esfera verde brillante sobre fondo transparente_34: -4662117450818836368
+      Esfera verde brillante sobre fondo transparente_35: -2385790590548585983
+      Esfera verde brillante sobre fondo transparente_36: -6299446202216720799
+      Esfera verde brillante sobre fondo transparente_37: 810352754185467450
+      Esfera verde brillante sobre fondo transparente_38: 7711910651232850248
+      Esfera verde brillante sobre fondo transparente_39: 7292875437501334083
+      Esfera verde brillante sobre fondo transparente_4: 5948646610660504720
+      Esfera verde brillante sobre fondo transparente_40: 1592499412233385498
+      Esfera verde brillante sobre fondo transparente_41: -6067063021667687246
+      Esfera verde brillante sobre fondo transparente_42: -49769288465148168
+      Esfera verde brillante sobre fondo transparente_43: 3122894630250578679
+      Esfera verde brillante sobre fondo transparente_44: 7294447673525737361
+      Esfera verde brillante sobre fondo transparente_45: 4071118535057634974
+      Esfera verde brillante sobre fondo transparente_46: 1369141439522448094
+      Esfera verde brillante sobre fondo transparente_47: -5941800377900511263
+      Esfera verde brillante sobre fondo transparente_48: 7544657086613322848
+      Esfera verde brillante sobre fondo transparente_49: -6813435642347553538
+      Esfera verde brillante sobre fondo transparente_5: -7993322949069788411
+      Esfera verde brillante sobre fondo transparente_50: -7189103224415192615
+      Esfera verde brillante sobre fondo transparente_51: -3109353247480431743
+      Esfera verde brillante sobre fondo transparente_52: 7102704909538147605
+      Esfera verde brillante sobre fondo transparente_53: 401153565045385144
+      Esfera verde brillante sobre fondo transparente_54: 1612274985457454419
+      Esfera verde brillante sobre fondo transparente_55: -6275700926923104444
+      Esfera verde brillante sobre fondo transparente_56: 8004655538605667713
+      Esfera verde brillante sobre fondo transparente_57: -1645950862156893306
+      Esfera verde brillante sobre fondo transparente_58: 504947220832174952
+      Esfera verde brillante sobre fondo transparente_59: 1449383996333212249
+      Esfera verde brillante sobre fondo transparente_6: 4443112903073711143
+      Esfera verde brillante sobre fondo transparente_60: -8954826122527411146
+      Esfera verde brillante sobre fondo transparente_61: 8161483444826194083
+      Esfera verde brillante sobre fondo transparente_62: -5400522038139786666
+      Esfera verde brillante sobre fondo transparente_63: -3172393163339353418
+      Esfera verde brillante sobre fondo transparente_64: -4267820569154792435
+      Esfera verde brillante sobre fondo transparente_65: 3589908570107482866
+      Esfera verde brillante sobre fondo transparente_66: 5988847900895635770
+      Esfera verde brillante sobre fondo transparente_67: -4894392835682709818
+      Esfera verde brillante sobre fondo transparente_68: 6264070364656642043
+      Esfera verde brillante sobre fondo transparente_69: 4662551807331540166
+      Esfera verde brillante sobre fondo transparente_7: 702658117355938543
+      Esfera verde brillante sobre fondo transparente_70: -277256015527546846
+      Esfera verde brillante sobre fondo transparente_71: 8106126706331282601
+      Esfera verde brillante sobre fondo transparente_72: 6895767649184360530
+      Esfera verde brillante sobre fondo transparente_73: -1213280590104972167
+      Esfera verde brillante sobre fondo transparente_74: -6280650947352690536
+      Esfera verde brillante sobre fondo transparente_75: -1352165394352377570
+      Esfera verde brillante sobre fondo transparente_76: 3668518201077388341
+      Esfera verde brillante sobre fondo transparente_77: -5169316378979162607
+      Esfera verde brillante sobre fondo transparente_78: 722200480735419251
+      Esfera verde brillante sobre fondo transparente_79: -8078553232844470478
+      Esfera verde brillante sobre fondo transparente_8: -1274463897707077550
+      Esfera verde brillante sobre fondo transparente_80: 6990258617388433011
+      Esfera verde brillante sobre fondo transparente_81: -4637976586858641287
+      Esfera verde brillante sobre fondo transparente_82: -1727649594236507890
+      Esfera verde brillante sobre fondo transparente_9: -528668222644304562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,7 +14,7 @@ public class PlatformGenerator : MonoBehaviour
     public float spawnAhead = 12f;
 
     [Range(0f, 1f)]
-    public float coinChance = 0.02f;
+    public float coinChance = 0.2f;
     [Range(0f, 1f)]
     public float powerUpChance = 0.03f; // 3% de probabilidad
     [Range(0f, 1f)]

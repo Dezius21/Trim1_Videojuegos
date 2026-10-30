@@ -26,10 +26,30 @@ public class PowerUp : MonoBehaviour
         if (tipo == TipoPowerUp.SuperSalto)
         {
             sr.sprite = skinSuperSalto;
+              // --- NUEVO: FORZAR TAMAÑO FIJO ---
+            // Define el tamaño que ocupará en el mundo (ej. 0.8 unidades de Unity)
+            float tamanoDeseado = 0.8f; 
+            
+            // Obtenemos las dimensiones físicas del sprite recién asignado
+            float anchoReal = sr.sprite.bounds.size.x;
+            float altoReal = sr.sprite.bounds.size.y;
+
+            // Calculamos y aplicamos la escala exacta para llegar al tamaño deseado
+            transform.localScale = new Vector3(tamanoDeseado / anchoReal, tamanoDeseado / altoReal, 1f);
         }
         else
         {
             sr.sprite = skinPuntuacionDoble;
+            // --- NUEVO: FORZAR TAMAÑO FIJO ---
+            // Define el tamaño que ocupará en el mundo (ej. 0.8 unidades de Unity)
+            float tamanoDeseado = 0.8f; 
+            
+            // Obtenemos las dimensiones físicas del sprite recién asignado
+            float anchoReal = sr.sprite.bounds.size.x;
+            float altoReal = sr.sprite.bounds.size.y;
+
+            // Calculamos y aplicamos la escala exacta para llegar al tamaño deseado
+            transform.localScale = new Vector3(tamanoDeseado / anchoReal, tamanoDeseado / altoReal, 1f);
         }
     }
 
