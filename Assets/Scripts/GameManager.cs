@@ -24,10 +24,16 @@ public class GameManager : MonoBehaviour
     {
         playerPoints += 150;
     }
-
+/*
     public void IncreasePlayerPointsHeigth()
     {
         playerPoints += 10;
+    }
+    */
+
+    public void SumarPuntosPorDistancia(int puntos)
+    {
+        playerPoints += puntos;
     }
 
     public void ResetScore()

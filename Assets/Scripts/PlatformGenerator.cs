@@ -32,6 +32,7 @@ public class PlatformGenerator : MonoBehaviour
 
     void Update()
     {
+        //AjustarDificultad();
         while (nextY < player.position.y + spawnAhead)
             SpawnPlatform();
     }
@@ -64,4 +65,31 @@ public class PlatformGenerator : MonoBehaviour
 
         nextY += Random.Range(minGap, maxGap);
     }
+/*
+    void AjustarDificultad()
+    {
+        // Validamos que el GameManager exista para evitar errores en consola
+        if (GameManager.Instance == null) return;
+
+        int puntosActuales = GameManager.Instance.playerPoints;
+
+        // SISTEMA DE DIFICULTAD ESCALABLE
+        // Si muere, los puntos vuelven a 0, por lo que entra al primer "if" y minGap vuelve a 1.2f automáticamente.
+        if (puntosActuales <= 50)
+        {
+            minGap = 1.2f;
+            maxGap = 2.5f;
+        }
+        else if (puntosActuales > 50 && puntosActuales <= 200)
+        {
+            minGap = 3.0f; // Se empieza a poner más difícil
+            maxGap = 4.0f;
+        }
+        else if (puntosActuales > 200)
+        {
+            minGap = 10.0f; // Dificultad máxima
+            maxGap = 15.0f;
+        }
+    }
+    */
 }
