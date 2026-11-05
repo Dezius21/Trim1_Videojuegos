@@ -23,10 +23,9 @@ public class VerticalPlatform : MonoBehaviour
     void Update()
     {
         // Destrucción si la cámara la deja muy atrás
-        if (transform.position.y < mainCamera.transform.position.y - 5.5f)
+        if (transform.position.y < mainCamera.transform.position.y - 10f)
         {
             Destroy(gameObject);
-            return;
         }
 
         // Movimiento vertical (Vector2.up en lugar de Vector2.right)

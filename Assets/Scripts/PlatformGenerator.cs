@@ -51,6 +51,7 @@ public class PlatformGenerator : MonoBehaviour
         // 1. Decidir QUÉ TIPO de plataforma spawnear
         float tiradaPlataforma = Random.value;
         bool specialPlatform = false;
+        bool isVertical = false;
 
         if (tiradaPlataforma < horizontalPlatformChance) 
         {
@@ -61,6 +62,7 @@ public class PlatformGenerator : MonoBehaviour
         {
             platform = Instantiate(verticalPlatformPrefab, new Vector3(x, nextY, 0), Quaternion.identity);
             specialPlatform = true;
+            isVertical = true;
         } 
         else 
         {
@@ -89,7 +91,18 @@ public class PlatformGenerator : MonoBehaviour
             }
         }
 
-        nextY += Random.Range(minGap, maxGap);
+        float baseGap = Random.Range(minGap, maxGap);
+
+        if (isVertical)
+        {
+            float rangoMovimientoVertical = 1.8f; 
+            nextY += baseGap + rangoMovimientoVertical;
+        }
+        else
+        {
+            nextY += baseGap;
+        }
+
     }
 /*
     void AjustarDificultad()
