@@ -4,8 +4,10 @@ public class PlatformGenerator : MonoBehaviour
 {
     public GameObject platformPrefab;
     public GameObject coinPrefab;
-    public GameObject powerUpPrefab; // Nuevo
-    public GameObject enemyPrefab;   // Nuevo
+    public GameObject powerUpPrefab; 
+    public GameObject enemyPrefab;   
+    public GameObject horizontalPlatformPrefab;
+    public GameObject verticalPlatformPrefab;
     
     public Transform player;
     public float maxX = 2.5f;
@@ -16,9 +18,13 @@ public class PlatformGenerator : MonoBehaviour
     [Range(0f, 1f)]
     public float coinChance = 0.2f;
     [Range(0f, 1f)]
-    public float powerUpChance = 0.03f; // 3% de probabilidad
+    public float powerUpChance = 0.02f;
     [Range(0f, 1f)]
-    public float enemyChance = 0.10f;   // 10% de probabilidad
+    public float enemyChance = 0.03f;   
+    [Range(0f, 1f)]
+    public float horizontalPlatformChance = 0.05f; 
+    [Range(0f, 1f)]
+    public float verticalPlatformChance = 0.05f;   
 
     public float coinOffsetY = 0.5f;
 
@@ -40,27 +46,47 @@ public class PlatformGenerator : MonoBehaviour
     void SpawnPlatform()
     {
         float x = Random.Range(-maxX, maxX);
-        GameObject platform = Instantiate(platformPrefab, new Vector3(x, nextY, 0), Quaternion.identity);
+        GameObject platform;
 
-        // Tiramos un único "dado" virtual del 0.0 al 1.0
-        float tirada = Random.value;
+        // 1. Decidir QUÉ TIPO de plataforma spawnear
+        float tiradaPlataforma = Random.value;
+        bool specialPlatform = false;
 
-        if (tirada < coinChance)
+        if (tiradaPlataforma < horizontalPlatformChance) 
         {
-            Vector3 coinPos = platform.transform.position + new Vector3(0f, coinOffsetY, 0f);
-            Instantiate(coinPrefab, coinPos, Quaternion.identity);
+            platform = Instantiate(horizontalPlatformPrefab, new Vector3(x, nextY, 0), Quaternion.identity);
+            specialPlatform = true;
+        } 
+        else if (tiradaPlataforma < horizontalPlatformChance + verticalPlatformChance) 
+        {
+            platform = Instantiate(verticalPlatformPrefab, new Vector3(x, nextY, 0), Quaternion.identity);
+            specialPlatform = true;
+        } 
+        else 
+        {
+            platform = Instantiate(platformPrefab, new Vector3(x, nextY, 0), Quaternion.identity);
         }
-        else if (tirada < coinChance + powerUpChance)
-        {
-            Vector3 powerUpPos = platform.transform.position + new Vector3(0f, coinOffsetY, 0f);
-            Instantiate(powerUpPrefab, powerUpPos, Quaternion.identity);
-        }
-        else if (tirada < coinChance + powerUpChance + enemyChance)
-        {
-            // El enemigo aparece en la misma Y, pero en una X aleatoria para obligar a esquivarlo
-            float enemyX = Random.Range(-maxX, maxX);
-            Vector3 enemyPos = new Vector3(enemyX, nextY + (minGap / 2), 0f);
-            Instantiate(enemyPrefab, enemyPos, Quaternion.identity);
+
+        // 2. Decidir QUÉ ÍTEM o ENEMIGO spawnear sobre/cerca de la plataforma
+        if(!specialPlatform){
+            float tiradaItem = Random.value;
+
+            if (tiradaItem < coinChance) 
+            {
+                Vector3 coinPos = platform.transform.position + new Vector3(0f, coinOffsetY, 0f);
+                Instantiate(coinPrefab, coinPos, Quaternion.identity);
+            } 
+            else if (tiradaItem < coinChance + powerUpChance) 
+            {
+                Vector3 powerUpPos = platform.transform.position + new Vector3(0f, coinOffsetY, 0f);
+                Instantiate(powerUpPrefab, powerUpPos, Quaternion.identity);
+            } 
+            else if (tiradaItem < coinChance + powerUpChance + enemyChance) 
+            {
+                float enemyX = Random.Range(-maxX, maxX);
+                Vector3 enemyPos = new Vector3(enemyX, nextY + (minGap / 2), 0f);
+                Instantiate(enemyPrefab, enemyPos, Quaternion.identity);
+            }
         }
 
         nextY += Random.Range(minGap, maxGap);

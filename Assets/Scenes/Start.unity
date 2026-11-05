@@ -330,6 +330,8 @@ MonoBehaviour:
   coinPrefab: {fileID: 4998790757051834448, guid: 82f2c86ad4c7d3d45addbe47a6205cd0, type: 3}
   powerUpPrefab: {fileID: 737399810498011510, guid: e79a57bc203197f4eb6c60ada385ddf8, type: 3}
   enemyPrefab: {fileID: 1103975274957048280, guid: c1e92cd3bfe49e54bb3c11240a7d0dd0, type: 3}
+  horizontalPlatformPrefab: {fileID: 8463544763800586295, guid: e9122a78df18f9d46b745f17ced64ba1, type: 3}
+  verticalPlatformPrefab: {fileID: 8463544763800586295, guid: 8472a6cdd55972d4a88dc38f6997279f, type: 3}
   player: {fileID: 978156984}
   maxX: 2.5
   minGap: 1.2
@@ -338,6 +340,8 @@ MonoBehaviour:
   coinChance: 0.2
   powerUpChance: 0.3
   enemyChance: 0.1
+  horizontalPlatformChance: 0.2
+  verticalPlatformChance: 0.2
   coinOffsetY: 0.5
 --- !u!4 &451848039
 Transform:
