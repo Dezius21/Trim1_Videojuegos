@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public int playerPoints = 0;
     public int highScore = 0;
 
+
     private void Awake()
     {
         if(Instance == null)
@@ -23,10 +24,16 @@ public class GameManager : MonoBehaviour
     {
         playerPoints += 150;
     }
-
+/*
     public void IncreasePlayerPointsHeigth()
     {
         playerPoints += 10;
+    }
+    */
+
+    public void SumarPuntosPorDistancia(int puntos)
+    {
+        playerPoints += puntos;
     }
 
     public void ResetScore()

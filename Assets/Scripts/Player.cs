@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     private bool isGrounded = true;
     private float lastScoredY = float.NegativeInfinity;
 
+    private float maxAlturaY = 0f; 
+
     public Sprite jumpSprite;
     private Sprite defaultSprite;
     private SpriteRenderer spriteRenderer;
@@ -67,6 +69,28 @@ public class Player : MonoBehaviour
         else if (pos.x < -limitX) pos.x = limitX;
         transform.position = pos;
 
+        // --- SISTEMA DE PUNTUACIÓN POR ALTURA MAXIMA ---
+        // Si la posición actual es mayor que el récord de altura que teníamos guardado
+        if (transform.position.y > maxAlturaY)
+        {
+            // Calculamos cuánta altura nueva ha subido en este frame
+            float diferenciaAltura = transform.position.y - maxAlturaY;
+            
+            // Pasamos esa diferencia al GameManager (multiplicada para que sume puntos enteros)
+            int puntosASumar = Mathf.RoundToInt(diferenciaAltura * 10f); 
+
+            if (puntosASumar > 0 && GameManager.Instance != null)
+            {
+                // Si el power-up está activo, sumamos el doble
+                if (puntuacionDobleActiva) puntosASumar *= 2;
+
+                GameManager.Instance.SumarPuntosPorDistancia(puntosASumar);
+            }
+
+            // Actualizamos nuestra altura máxima alcanzada
+            maxAlturaY = transform.position.y;
+        }
+
    
         // Die if falling below the camera view
         if (transform.position.y < Camera.main.transform.position.y - 6f)
@@ -85,12 +109,14 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
+        /*
         float platY = collision.transform.position.y;
         if (platY > lastScoredY + 0.1f)
         {
             lastScoredY = platY;
             GameManager.Instance.IncreasePlayerPointsHeigth();
         }
+        */
 
         isGrounded = true;
         spriteRenderer.sprite = defaultSprite;
@@ -124,6 +150,7 @@ public class Player : MonoBehaviour
     public void ActivarPuntuacionDoble(float duracion)
     {
         StartCoroutine(RutinaPuntuacionDoble(duracion));
+        
     }
 
     private System.Collections.IEnumerator RutinaPuntuacionDoble(float duracion)
