@@ -107,7 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PowerUp
   tipo: 0
   skinSuperSalto: {fileID: 21300000, guid: 0b60fbe8239f5fe4f95a9fda43a0bc20, type: 3}
-  skinPuntuacionDoble: {fileID: 327692708436021757, guid: 39053770192e7bd48957798be94c9851, type: 3}
+  skinPuntuacionDoble: {fileID: 21300000, guid: 530da613f6e043843a5a19b46a979e42, type: 3}
   multiplicadorSalto: 2
   duracionDoblePuntuacion: 5
 --- !u!61 &5235801118332900012
