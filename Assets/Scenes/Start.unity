@@ -335,8 +335,8 @@ MonoBehaviour:
   minGap: 1.2
   maxGap: 2.5
   spawnAhead: 12
-  coinChance: 0.02
-  powerUpChance: 0.201
+  coinChance: 0.2
+  powerUpChance: 0.3
   enemyChance: 0.1
   coinOffsetY: 0.5
 --- !u!4 &451848039
