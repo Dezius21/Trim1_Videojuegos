@@ -53,6 +53,11 @@ public class PowerUp : MonoBehaviour
         }
     }
 
+    void Update(){
+        if (transform.position.y < Camera.main.transform.position.y - 5.5f)
+            Destroy(gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))

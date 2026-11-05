@@ -95,7 +95,7 @@ public class PlatformGenerator : MonoBehaviour
 
         if (isVertical)
         {
-            float rangoMovimientoVertical = 1.8f; 
+            float rangoMovimientoVertical = 1.5f; 
             nextY += baseGap + rangoMovimientoVertical;
         }
         else
