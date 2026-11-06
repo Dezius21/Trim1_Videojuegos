@@ -27,7 +27,7 @@ public class PlayerScore : MonoBehaviour
         {
             float velocidadParpadeo = 10f;
 
-            points.color = Mathf.PingPong(Time.time * velocidadParpadeo, 1f) > 1f ? Color.yellow : colorOriginal;
+            points.color = Mathf.PingPong(Time.time * velocidadParpadeo, 1f) > 0.5f ? Color.yellow : colorOriginal;
         }
         else
         {

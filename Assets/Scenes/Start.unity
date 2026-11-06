@@ -150,6 +150,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   playerPoints: 0
   highScore: 0
+  isMultiplierActive: 0
+  hasCheckpoint: 0
+  checkpointPos: {x: 0, y: 0}
+  checkpointScore: 0
 --- !u!4 &232359302
 Transform:
   m_ObjectHideFlags: 0
@@ -332,17 +336,19 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1103975274957048280, guid: c1e92cd3bfe49e54bb3c11240a7d0dd0, type: 3}
   horizontalPlatformPrefab: {fileID: 8463544763800586295, guid: e9122a78df18f9d46b745f17ced64ba1, type: 3}
   verticalPlatformPrefab: {fileID: 8463544763800586295, guid: 8472a6cdd55972d4a88dc38f6997279f, type: 3}
+  checkpointPrefab: {fileID: 8463544763800586295, guid: 5d0af2260ff2958479dd64dfd1d607cb, type: 3}
   player: {fileID: 978156984}
   maxX: 2.5
   minGap: 1.2
   maxGap: 2.5
   spawnAhead: 12
-  coinChance: 0.2
-  powerUpChance: 0.3
-  enemyChance: 0.1
-  horizontalPlatformChance: 0.2
-  verticalPlatformChance: 0.2
+  coinChance: 0.07
+  powerUpChance: 0.07
+  enemyChance: 0.03
+  horizontalPlatformChance: 0
+  verticalPlatformChance: 0
   coinOffsetY: 0.5
+  puntosPorCheckpoint: 300
 --- !u!4 &451848039
 Transform:
   m_ObjectHideFlags: 0
@@ -1232,6 +1238,10 @@ PrefabInstance:
     - target: {fileID: 814838485951796104, guid: 245b44a2047d0b34b90810de13038759, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419993857245346588, guid: 245b44a2047d0b34b90810de13038759, type: 3}
+      propertyPath: jumpForce
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2512070724475857824, guid: 245b44a2047d0b34b90810de13038759, type: 3}
       propertyPath: m_LocalPosition.x

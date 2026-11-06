@@ -17,15 +17,15 @@ public class PlatformGenerator : MonoBehaviour
     public float spawnAhead = 12f;
 
     [Range(0f, 1f)]
-    public float coinChance = 0.2f;
+    public float coinChance = 0.07f;
     [Range(0f, 1f)]
-    public float powerUpChance = 0.02f;
+    public float powerUpChance = 0.05f;
     [Range(0f, 1f)]
     public float enemyChance = 0.03f;   
     [Range(0f, 1f)]
-    public float horizontalPlatformChance = 0.05f; 
+    public float horizontalPlatformChance = 0f; 
     [Range(0f, 1f)]
-    public float verticalPlatformChance = 0.05f;   
+    public float verticalPlatformChance = 0f;   
 
     public float coinOffsetY = 0.5f;
 
@@ -57,7 +57,7 @@ public class PlatformGenerator : MonoBehaviour
 
     void Update()
     {
-        //AjustarDificultad();
+        AjustarDificultad();
         while (nextY < player.position.y + spawnAhead)
             SpawnPlatform();
     }
@@ -133,31 +133,45 @@ public class PlatformGenerator : MonoBehaviour
         }
 
     }
-/*
+
+
     void AjustarDificultad()
     {
-        // Validamos que el GameManager exista para evitar errores en consola
         if (GameManager.Instance == null) return;
 
         int puntosActuales = GameManager.Instance.playerPoints;
 
-        // SISTEMA DE DIFICULTAD ESCALABLE
-        // Si muere, los puntos vuelven a 0, por lo que entra al primer "if" y minGap vuelve a 1.2f automáticamente.
-        if (puntosActuales <= 50)
+        if (puntosActuales <= 500)
         {
             minGap = 1.2f;
             maxGap = 2.5f;
+            enemyChance = 0.03f;
+            horizontalPlatformChance = 0f;
+            verticalPlatformChance = 0f;
         }
-        else if (puntosActuales > 50 && puntosActuales <= 200)
+        else if (puntosActuales > 500 && puntosActuales <= 1000)
         {
-            minGap = 3.0f; // Se empieza a poner más difícil
-            maxGap = 4.0f;
+            minGap = 1.4f; 
+            maxGap = 2.65f;
+            enemyChance = 0.07f;
+            horizontalPlatformChance = 0.1f;
+            verticalPlatformChance = 0.05f;
         }
-        else if (puntosActuales > 200)
+        else if (puntosActuales > 1000 && puntosActuales <= 1500)
         {
-            minGap = 10.0f; // Dificultad máxima
-            maxGap = 15.0f;
+            minGap = 1.6f; 
+            maxGap = 2.75f;
+            enemyChance = 0.1f;
+            horizontalPlatformChance = 0.15f;
+            verticalPlatformChance = 0.1f;
+        }
+        else if (puntosActuales > 1500)
+        {
+            minGap = 1.8f; 
+            maxGap = 2.9f;
+            enemyChance = 0.2f;
+            horizontalPlatformChance = 0.2f;
+            verticalPlatformChance = 0.15f;
         }
     }
-    */
 }
