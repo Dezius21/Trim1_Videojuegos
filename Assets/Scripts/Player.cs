@@ -34,7 +34,22 @@ public class Player : MonoBehaviour
 
 
         if (GameManager.Instance != null)
+        {
             GameManager.Instance.ResetScore();
+
+            // Si hay checkpoint, reaparecemos justo encima de esa plataforma
+            if (GameManager.Instance.hasCheckpoint)
+            {
+                Vector2 cp = GameManager.Instance.checkpointPos;
+                float spawnY = cp.y + 1f;
+
+                transform.position = new Vector3(cp.x, spawnY, 0f);
+                maxAlturaY = spawnY; // para no sumar puntos de altura desde 0
+
+                Vector3 camPos = Camera.main.transform.position;
+                Camera.main.transform.position = new Vector3(camPos.x, spawnY, camPos.z);
+            }
+        }
 
     }
 
@@ -117,6 +132,10 @@ public class Player : MonoBehaviour
             GameManager.Instance.IncreasePlayerPointsHeigth();
         }
         */
+
+        // Si hemos aterrizado en una plataforma checkpoint, la activamos
+        CheckpointPlatform cp = collision.gameObject.GetComponentInParent<CheckpointPlatform>();
+        if (cp != null) cp.Activate();
 
         isGrounded = true;
         spriteRenderer.sprite = defaultSprite;

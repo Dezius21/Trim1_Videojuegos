@@ -8,6 +8,7 @@ public class PlatformGenerator : MonoBehaviour
     public GameObject enemyPrefab;   
     public GameObject horizontalPlatformPrefab;
     public GameObject verticalPlatformPrefab;
+    public GameObject checkpointPrefab;
     
     public Transform player;
     public float maxX = 2.5f;
@@ -28,10 +29,28 @@ public class PlatformGenerator : MonoBehaviour
 
     public float coinOffsetY = 0.5f;
 
+    [Header("Checkpoint")]
+    public int puntosPorCheckpoint = 300; // cada cuántos puntos de altura sale un checkpoint
+    private float checkpointStep;
+    private float nextCheckpointY;
+
     private float nextY = 0f;
 
     void Start()
     {
+        // La puntuación por altura es Y * 10, así que X puntos = X / 10 unidades de altura
+        checkpointStep = puntosPorCheckpoint / 10f;
+        nextCheckpointY = checkpointStep;
+
+        // Si venimos de morir con un checkpoint activo, empezamos el nivel desde él
+        if (GameManager.Instance != null && GameManager.Instance.hasCheckpoint)
+        {
+            Vector2 cp = GameManager.Instance.checkpointPos;
+            Instantiate(checkpointPrefab, new Vector3(cp.x, cp.y, 0f), Quaternion.identity);
+            nextY = cp.y + Random.Range(minGap, maxGap);
+            nextCheckpointY = cp.y + checkpointStep;
+        }
+        
         while (nextY < spawnAhead)
             SpawnPlatform();
     }
@@ -45,6 +64,16 @@ public class PlatformGenerator : MonoBehaviour
 
     void SpawnPlatform()
     {
+        // CHECKPOINT: cada X puntos sale una plataforma especial
+        if (checkpointPrefab != null && nextY >= nextCheckpointY)
+        {
+            float cx = Random.Range(-maxX, maxX);
+            Instantiate(checkpointPrefab, new Vector3(cx, nextY, 0), Quaternion.identity);
+            nextCheckpointY += checkpointStep;
+            nextY += Random.Range(minGap, maxGap);
+            return;
+        }
+
         float x = Random.Range(-maxX, maxX);
         GameObject platform;
 
