@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     private bool isGrounded = true;
     private float lastScoredY = float.NegativeInfinity;
 
-    private float maxAlturaY = 0f; 
+    private float maxAlturaY = 0f;
 
     public Sprite jumpSprite;
     private Sprite defaultSprite;
@@ -20,10 +20,6 @@ public class Player : MonoBehaviour
 
     private bool dead;
 
-
-    // --- VARIABLE PARA POWER-UPS ---
-    public bool puntuacionDobleActiva = false;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -31,7 +27,6 @@ public class Player : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultSprite = spriteRenderer.sprite;
-
 
         if (GameManager.Instance != null)
         {
@@ -50,10 +45,7 @@ public class Player : MonoBehaviour
                 Camera.main.transform.position = new Vector3(camPos.x, spawnY, camPos.z);
             }
         }
-
     }
-
-    
 
     void Update()
     {
@@ -71,12 +63,10 @@ public class Player : MonoBehaviour
             spriteRenderer.flipX = true;
         }
 
-        // CAMBIAR-------------------------------------------------------------------
         if (!isGrounded && jumpSprite != null)
         {
             spriteRenderer.sprite = jumpSprite;
         }
-        //-----------------------------------------------------------------------
 
         // Wrap around the screen sides
         Vector3 pos = transform.position;
@@ -85,36 +75,33 @@ public class Player : MonoBehaviour
         transform.position = pos;
 
         // --- SISTEMA DE PUNTUACIÓN POR ALTURA MAXIMA ---
-        // Si la posición actual es mayor que el récord de altura que teníamos guardado
         if (transform.position.y > maxAlturaY)
         {
-            // Calculamos cuánta altura nueva ha subido en este frame
             float diferenciaAltura = transform.position.y - maxAlturaY;
-            
-            // Pasamos esa diferencia al GameManager (multiplicada para que sume puntos enteros)
-            int puntosASumar = Mathf.RoundToInt(diferenciaAltura * 10f); 
 
-            if (puntosASumar > 0 && GameManager.Instance != null)
+            // Usamos FloorToInt para asegurar que solo cobramos puntos enteros completos
+            int puntosASumar = Mathf.FloorToInt(diferenciaAltura * 10f);
+
+            if (puntosASumar > 0)
             {
-                // Si el power-up está activo, sumamos el doble
-                if (puntuacionDobleActiva) puntosASumar *= 2;
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.SumarPuntosPorDistancia(puntosASumar);
+                }
 
-                GameManager.Instance.SumarPuntosPorDistancia(puntosASumar);
+                // ¡LA CLAVE! Solo avanzamos maxAlturaY la cantidad exacta de altura 
+                // por la que ya hemos recibido puntos (ej. 2 puntos = 0.2f de altura).
+                // Los decimales sobrantes se quedan acumulados para el siguiente frame.
+                maxAlturaY += (puntosASumar / 10f);
             }
-
-            // Actualizamos nuestra altura máxima alcanzada
-            maxAlturaY = transform.position.y;
         }
 
-   
         // Die if falling below the camera view
         if (transform.position.y < Camera.main.transform.position.y - 6f)
         {
             Die();
         }
     }
-
-    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -124,15 +111,6 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
-        /*
-        float platY = collision.transform.position.y;
-        if (platY > lastScoredY + 0.1f)
-        {
-            lastScoredY = platY;
-            GameManager.Instance.IncreasePlayerPointsHeigth();
-        }
-        */
-
         // Si hemos aterrizado en una plataforma checkpoint, la activamos
         CheckpointPlatform cp = collision.gameObject.GetComponentInParent<CheckpointPlatform>();
         if (cp != null) cp.Activate();
@@ -141,9 +119,6 @@ public class Player : MonoBehaviour
         spriteRenderer.sprite = defaultSprite;
     }
 
-    // --- ¡NUEVO MÉTODO AÑADIDO! ---
-    // En cuanto el jugador se separe de la plataforma (comience el salto), 
-    // activamos la alerta de que ya no está tocando el suelo.
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform"))
@@ -151,7 +126,6 @@ public class Player : MonoBehaviour
             isGrounded = false;
         }
     }
-    //---------------------------------------------------------------------------------------------------------
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -160,24 +134,23 @@ public class Player : MonoBehaviour
             Die();
         }
     }
+
     public void AplicarSuperSalto(float multiplicador)
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
         rb.AddForce(Vector2.up * (jumpForce * multiplicador), ForceMode2D.Impulse);
     }
 
+    // --- MODIFICADO: Hace de puente hacia el GameManager ---
     public void ActivarPuntuacionDoble(float duracion)
     {
-        StartCoroutine(RutinaPuntuacionDoble(duracion));
-        
+        if (GameManager.Instance != null)
+        {
+            // Le avisamos al GameManager para que encienda el efecto x2 y el color amarillo
+            GameManager.Instance.ActivarMultiplicador(duracion);
+        }
     }
 
-    private System.Collections.IEnumerator RutinaPuntuacionDoble(float duracion)
-    {
-        puntuacionDobleActiva = true;
-        yield return new WaitForSeconds(duracion);
-        puntuacionDobleActiva = false;
-    }
     void Die()
     {
         if (dead) return;

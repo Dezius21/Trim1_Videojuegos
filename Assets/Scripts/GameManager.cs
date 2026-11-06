@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
     public int playerPoints = 0;
     public int highScore = 0;
 
+    //Estado del multiplicador
+    public bool isMultiplierActive = false;
 
     private void Awake()
     {
@@ -19,10 +21,21 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    public void ActivarMultiplicador (float duracion)
+    {
+        StartCoroutine(RutinaMultiplicador(duracion));
+    }
+
+    private System.Collections.IEnumerator RutinaMultiplicador(float duracion)
+    {
+        isMultiplierActive = true;
+        yield return new WaitForSeconds(duracion);
+        isMultiplierActive = false;
+    }
 
     public void IncreasePlayerPointsCoins()
     {
-        playerPoints += 150;
+        playerPoints += isMultiplierActive ? 300: 150;
     }
 /*
     public void IncreasePlayerPointsHeigth()
