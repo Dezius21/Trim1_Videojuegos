@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
 
     public void SumarPuntosPorDistancia(int puntos)
     {
-        playerPoints += puntos;
+        playerPoints += isMultiplierActive ? (puntos * 2) : puntos;
     }
 
     // --- CHECKPOINT ---
