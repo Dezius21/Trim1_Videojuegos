@@ -8,7 +8,7 @@ public class HorizontalPlatform : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        limiteX = Camera.main.orthographicSize * Camera.main.aspect;
+        limiteX = (Camera.main.orthographicSize * Camera.main.aspect) - 0.5f;
     }
 
     // Update is called once per frame
