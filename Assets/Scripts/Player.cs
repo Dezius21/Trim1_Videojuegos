@@ -63,9 +63,10 @@ public class Player : MonoBehaviour
             spriteRenderer.flipX = true;
         }
 
-        if (!isGrounded && jumpSprite != null)
+        // Subiendo = sprite de salto, bajando = sprite normal
+        if (jumpSprite != null)
         {
-            spriteRenderer.sprite = jumpSprite;
+            spriteRenderer.sprite = rb.linearVelocity.y > 0.01f ? jumpSprite : defaultSprite;
         }
 
         // Wrap around the screen sides
