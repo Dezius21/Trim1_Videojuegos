@@ -155,6 +155,13 @@ public class Player : MonoBehaviour
     {
         if (dead) return;
         dead = true;
+        
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.isTimerRunning = false;
+            GameManager.Instance.GuardarDatosPartida();
+        }
+
         SceneManager.LoadScene("GameOver");
     }
 }

@@ -141,7 +141,7 @@ public class PlatformGenerator : MonoBehaviour
 
         int puntosActuales = GameManager.Instance.playerPoints;
 
-        if (puntosActuales <= 500)
+        if (puntosActuales < 2500)
         {
             minGap = 1.2f;
             maxGap = 2.5f;
