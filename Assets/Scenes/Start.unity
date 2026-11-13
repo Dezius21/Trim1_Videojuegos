@@ -348,7 +348,7 @@ MonoBehaviour:
   horizontalPlatformChance: 0
   verticalPlatformChance: 0
   coinOffsetY: 0.5
-  puntosPorCheckpoint: 300
+  puntosPorCheckpoint: 1000
 --- !u!4 &451848039
 Transform:
   m_ObjectHideFlags: 0
