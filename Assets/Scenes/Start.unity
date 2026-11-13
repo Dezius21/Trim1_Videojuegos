@@ -336,17 +336,17 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1103975274957048280, guid: c1e92cd3bfe49e54bb3c11240a7d0dd0, type: 3}
   horizontalPlatformPrefab: {fileID: 8463544763800586295, guid: e9122a78df18f9d46b745f17ced64ba1, type: 3}
   verticalPlatformPrefab: {fileID: 8463544763800586295, guid: 8472a6cdd55972d4a88dc38f6997279f, type: 3}
-  checkpointPrefab: {fileID: 8463544763800586295, guid: 5d0af2260ff2958479dd64dfd1d607cb, type: 3}
+  checkpointPrefab: {fileID: 0}
   player: {fileID: 978156984}
   maxX: 2.5
   minGap: 1.2
   maxGap: 2.5
   spawnAhead: 12
-  coinChance: 0.07
-  powerUpChance: 0.07
-  enemyChance: 0.03
-  horizontalPlatformChance: 0
-  verticalPlatformChance: 0
+  coinChance: 0.2
+  powerUpChance: 0.3
+  enemyChance: 0.1
+  horizontalPlatformChance: 0.2
+  verticalPlatformChance: 0.2
   coinOffsetY: 0.5
   puntosPorCheckpoint: 1000
 --- !u!4 &451848039
@@ -376,6 +376,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420034}
   - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
@@ -516,6 +517,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Camera
   player: {fileID: 978156984}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40dbad8957db7214e801c07b6cf8527b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AspectKeeper
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1238,10 +1251,6 @@ PrefabInstance:
     - target: {fileID: 814838485951796104, guid: 245b44a2047d0b34b90810de13038759, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1419993857245346588, guid: 245b44a2047d0b34b90810de13038759, type: 3}
-      propertyPath: jumpForce
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2512070724475857824, guid: 245b44a2047d0b34b90810de13038759, type: 3}
       propertyPath: m_LocalPosition.x
