@@ -30,7 +30,7 @@ public class PlatformGenerator : MonoBehaviour
     public float coinOffsetY = 0.5f;
 
     [Header("Checkpoint")]
-    public int puntosPorCheckpoint = 300; // cada cuántos puntos de altura sale un checkpoint
+    public int puntosPorCheckpoint = 1000; // cada cuántos puntos de altura sale un checkpoint
     private float checkpointStep;
     private float nextCheckpointY;
 
@@ -149,7 +149,7 @@ public class PlatformGenerator : MonoBehaviour
             horizontalPlatformChance = 0f;
             verticalPlatformChance = 0f;
         }
-        else if (puntosActuales > 500 && puntosActuales <= 1000)
+        else if (puntosActuales > 2500 && puntosActuales <= 5000)
         {
             minGap = 1.4f; 
             maxGap = 2.65f;
@@ -157,21 +157,23 @@ public class PlatformGenerator : MonoBehaviour
             horizontalPlatformChance = 0.1f;
             verticalPlatformChance = 0.05f;
         }
-        else if (puntosActuales > 1000 && puntosActuales <= 1500)
+        else if (puntosActuales > 5000 && puntosActuales <= 7500)
         {
             minGap = 1.6f; 
             maxGap = 2.75f;
             enemyChance = 0.1f;
             horizontalPlatformChance = 0.15f;
             verticalPlatformChance = 0.1f;
+            puntosPorCheckpoint = 1200;
         }
-        else if (puntosActuales > 1500)
+        else if (puntosActuales > 10000)
         {
             minGap = 1.8f; 
             maxGap = 2.9f;
             enemyChance = 0.2f;
             horizontalPlatformChance = 0.2f;
             verticalPlatformChance = 0.15f;
+            puntosPorCheckpoint = 0;
         }
     }
 }
