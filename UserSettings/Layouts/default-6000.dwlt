@@ -594,7 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab
+    - Assets/Fonts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab
+  - Assets/Fonts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Diego R\DesarrolloDeVideojuegos\Trim1_Videojuego\Trim1_Videojuegos
   m_LockTracker:
@@ -613,12 +613,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 50406
+    - m_Data: 52342
     m_LastClickedID:
-      m_Data: 50406
+      m_Data: 52342
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50712
+    - m_Data: 50420
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -651,7 +651,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50712
+    - m_Data: 50420
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -678,13 +678,16 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 49996
-    m_LastClickedInstanceID: 49996
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 82150
     - m_Data: 50070
+    - m_Data: 52734
+    - m_Data: 52716
+    - m_Data: 52746
+    - m_Data: 56436
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -810,10 +813,28 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -23894
-      - m_Data: -8722
-      - m_Data: -6930
-      - m_Data: -1360
+      - m_Data: -47012
+      - m_Data: -35650
+      - m_Data: -35438
+      - m_Data: -35268
+      - m_Data: -23548
+      - m_Data: -16840
+      - m_Data: -14802
+      - m_Data: -14678
+      - m_Data: -14506
+      - m_Data: -14296
+      - m_Data: -4990
+      - m_Data: -4792
+      - m_Data: -4628
+      - m_Data: -1400
+      - m_Data: 52244
+      - m_Data: 52276
+      - m_Data: 52318
+      - m_Data: 54904
+      - m_Data: 56370
+      - m_Data: 56396
+      - m_Data: 56420
+      - m_Data: 57498
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -860,10 +881,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 360
-    y: 79
-    width: 1105
-    height: 538
+    x: 240
+    y: 87
+    width: 735
+    height: 532
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1336,9 +1357,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.2690514, y: -0.06251714, z: 0.099248715}
+    m_Target: {x: 183.28526, y: 257.9669, z: -2.6799705}
     speed: 2
-    m_Value: {x: 1.2690514, y: -0.06251714, z: 0.099248715}
+    m_Value: {x: 183.28526, y: 257.9669, z: -2.6799705}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1388,9 +1409,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.2813725
+    m_Target: 286.18704
     speed: 2
-    m_Value: 6.2813725
+    m_Value: 286.18704
   m_Ortho:
     m_Target: 1
     speed: 2

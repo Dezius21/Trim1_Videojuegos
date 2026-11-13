@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: b2ad87607f244174a811c41acfae697b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8821985127931132349
+    second: btn Continue_0
+  - first:
+      213: -322737908458471205
+    second: btn Continue_1
+  - first:
+      213: -8116834561516479336
+    second: btn Continue_2
+  - first:
+      213: 1370668198295901160
+    second: btn Continue_3
+  - first:
+      213: 3480004466694340758
+    second: btn Continue_4
+  - first:
+      213: -3670405021311031511
+    second: btn Continue_5
+  - first:
+      213: 7027089249271611148
+    second: btn Continue_6
+  - first:
+      213: -5918706432897449871
+    second: btn Continue_7
+  - first:
+      213: -3152361451832818033
+    second: btn Continue_8
+  - first:
+      213: 7660711132471888704
+    second: btn Continue_9
+  - first:
+      213: 3685666368247941774
+    second: btn Continue_10
+  - first:
+      213: 6798997689646274985
+    second: btn Continue_11
+  - first:
+      213: -3713440878593930749
+    second: btn Continue_12
+  - first:
+      213: -7294179173675237245
+    second: btn Continue_13
+  - first:
+      213: 3486526103579841304
+    second: btn Continue_14
+  - first:
+      213: -6542582790056447204
+    second: btn Continue_15
+  - first:
+      213: -230461582357566153
+    second: btn Continue_16
+  - first:
+      213: -8302525987006367971
+    second: btn Continue_17
+  - first:
+      213: -6918146324004256920
+    second: btn Continue_18
+  - first:
+      213: 3114575420218835214
+    second: btn Continue_19
+  - first:
+      213: 9077749319554573163
+    second: btn Continue_20
+  - first:
+      213: -5015519042675755308
+    second: btn Continue_21
+  - first:
+      213: -5493045470588177521
+    second: btn Continue_22
+  - first:
+      213: 7665540587440368540
+    second: btn Continue_23
+  - first:
+      213: 6995969248501356423
+    second: btn Continue_24
+  - first:
+      213: 7347134540548552976
+    second: btn Continue_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: btn Continue_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 25
+        width: 1445
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346c2eb5443029580800000000000000
+      internalID: -8821985127931132349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_1
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 911
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0c7ca0597658bf0800000000000000
+      internalID: -322737908458471205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_2
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 895
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c523c98f53b5f80800000000000000
+      internalID: -8116834561516479336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_3
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 895
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e31a58d677950310800000000000000
+      internalID: 1370668198295901160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_4
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 896
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690c616ef957b4030800000000000000
+      internalID: 3480004466694340758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 865
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92722fa641a101dc0800000000000000
+      internalID: -3670405021311031511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_6
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 839
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ffccbe07c358160800000000000000
+      internalID: 7027089249271611148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_7
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 817
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1700451abd78cdda0800000000000000
+      internalID: -5918706432897449871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_8
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 820
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86ced326ff8044d0800000000000000
+      internalID: -3152361451832818033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b0ed1df20505a60800000000000000
+      internalID: 7660711132471888704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 223
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ac500d80e162330800000000000000
+      internalID: 3685666368247941774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 127
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a951184064ea5e50800000000000000
+      internalID: 6798997689646274985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 127
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a8ef01235377cc0800000000000000
+      internalID: -3713440878593930749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_13
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 127
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380090110bed5ca90800000000000000
+      internalID: -7294179173675237245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_14
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 125
+        width: 57
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813d000d401a26030800000000000000
+      internalID: 3486526103579841304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_15
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 127
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13f915dd931435a0800000000000000
+      internalID: -6542582790056447204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_16
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 123
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73de331796c3dccf0800000000000000
+      internalID: -230461582357566153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_17
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 129
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17390e7a9087cc80800000000000000
+      internalID: -8302525987006367971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_18
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 120
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8634d8d729ecdff90800000000000000
+      internalID: -6918146324004256920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_19
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 121
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e018e4cc7d1393b20800000000000000
+      internalID: 3114575420218835214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_20
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 125
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63281009e4aafd70800000000000000
+      internalID: 9077749319554573163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_21
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 122
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6ba19010c456ab0800000000000000
+      internalID: -5015519042675755308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_22
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 109
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83f5867f38c4c3b0800000000000000
+      internalID: -5493045470588177521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_23
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 113
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9be8bdec88716a60800000000000000
+      internalID: 7665540587440368540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_24
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 114
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787da7c17fca61160800000000000000
+      internalID: 6995969248501356423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn Continue_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019366610f346f560800000000000000
+      internalID: 7347134540548552976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      btn Continue_0: -8821985127931132349
+      btn Continue_1: -322737908458471205
+      btn Continue_10: 3685666368247941774
+      btn Continue_11: 6798997689646274985
+      btn Continue_12: -3713440878593930749
+      btn Continue_13: -7294179173675237245
+      btn Continue_14: 3486526103579841304
+      btn Continue_15: -6542582790056447204
+      btn Continue_16: -230461582357566153
+      btn Continue_17: -8302525987006367971
+      btn Continue_18: -6918146324004256920
+      btn Continue_19: 3114575420218835214
+      btn Continue_2: -8116834561516479336
+      btn Continue_20: 9077749319554573163
+      btn Continue_21: -5015519042675755308
+      btn Continue_22: -5493045470588177521
+      btn Continue_23: 7665540587440368540
+      btn Continue_24: 6995969248501356423
+      btn Continue_25: 7347134540548552976
+      btn Continue_3: 1370668198295901160
+      btn Continue_4: 3480004466694340758
+      btn Continue_5: -3670405021311031511
+      btn Continue_6: 7027089249271611148
+      btn Continue_7: -5918706432897449871
+      btn Continue_8: -3152361451832818033
+      btn Continue_9: 7660711132471888704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

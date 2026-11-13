@@ -9,6 +9,7 @@ TagManager:
   - Score
   - Coin
   - PoweUp
+  - Goal
   layers:
   - Default
   - TransparentFX

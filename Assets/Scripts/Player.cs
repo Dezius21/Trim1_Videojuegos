@@ -133,6 +133,8 @@ public class Player : MonoBehaviour
         {
             Die();
         }
+        else if (collider.CompareTag("Goal"))
+            Win();
     }
 
     public void AplicarSuperSalto(float multiplicador)
@@ -156,5 +158,13 @@ public class Player : MonoBehaviour
         if (dead) return;
         dead = true;
         SceneManager.LoadScene("GameOver");
+    }
+
+    void Win()
+    {
+        if (dead) return;
+        dead = true;
+        Debug.Log("¡Victoria!");
+        SceneManager.LoadScene("Victory");
     }
 }

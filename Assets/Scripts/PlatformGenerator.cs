@@ -36,8 +36,21 @@ public class PlatformGenerator : MonoBehaviour
 
     private float nextY = 0f;
 
+    [Header("Meta / Victoria")]
+    public GameObject metaPrefab;
+    public int scoreVictoria = 1000;   // para probar; luego lo subimos a 10000
+    private bool metaGenerada = false;
+
     void Start()
     {
+        void Start()
+        {
+            if (GameManager.Instance != null)
+                GameManager.Instance.ResetScore();
+
+            // ...el resto de tu Start (el while que crea las plataformas iniciales, etc.)
+        }
+
         // La puntuación por altura es Y * 10, así que X puntos = X / 10 unidades de altura
         checkpointStep = puntosPorCheckpoint / 10f;
         nextCheckpointY = checkpointStep;
@@ -64,6 +77,16 @@ public class PlatformGenerator : MonoBehaviour
 
     void SpawnPlatform()
     {
+        // META: al llegar al score de victoria sale la plataforma con la copa (una sola vez)
+        if (!metaGenerada && metaPrefab != null && GameManager.Instance != null
+            && GameManager.Instance.playerPoints >= scoreVictoria)
+        {
+            Instantiate(metaPrefab, new Vector3(0f, nextY, 0f), Quaternion.identity);
+            metaGenerada = true;
+            nextY += Random.Range(minGap, maxGap);
+            return;
+        }
+
         // CHECKPOINT: cada X puntos sale una plataforma especial
         if (checkpointPrefab != null && nextY >= nextCheckpointY)
         {
