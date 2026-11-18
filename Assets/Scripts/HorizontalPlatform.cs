@@ -5,13 +5,13 @@ public class HorizontalPlatform : MonoBehaviour
     public float speed = 1.8f;
     private int direction = 1;
     private float limiteX;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         limiteX = (Camera.main.orthographicSize * Camera.main.aspect) - 0.5f;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         if (transform.position.y < Camera.main.transform.position.y - 5.5f)

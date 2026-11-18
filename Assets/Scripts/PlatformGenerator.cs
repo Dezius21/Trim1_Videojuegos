@@ -30,29 +30,29 @@ public class PlatformGenerator : MonoBehaviour
     public float coinOffsetY = 0.5f;
 
     [Header("Checkpoint")]
-    public int puntosPorCheckpoint = 1000; // cada cuántos puntos de altura sale un checkpoint
+    public int puntosPorCheckpoint = 1000;
     private float checkpointStep;
     private float nextCheckpointY;
 
     private float nextY = 0f;
-    private float prevY = 0f;   // altura de la última plataforma generada
+    private float prevY = 0f;
 
     [Header("Meta / Victoria")]
     public GameObject metaPrefab;
-    public int scoreVictoria = 10000;   // para probar; luego lo subimos a 10000
+    public int scoreVictoria = 10000;
     private bool metaGenerada = false;
 
     void Start()
     {
-        // Aseguramos los puntos correctos ANTES de generar nada (el orden de Start entre scripts no está garantizado)
+
         if (GameManager.Instance != null)
             GameManager.Instance.ResetScore();
 
-        // La puntuación por altura es Y * 10, así que X puntos = X / 10 unidades de altura
+
         checkpointStep = puntosPorCheckpoint / 10f;
         nextCheckpointY = checkpointStep;
 
-        // Si venimos de morir con un checkpoint activo, empezamos el nivel desde él
+
         if (GameManager.Instance != null && GameManager.Instance.hasCheckpoint)
         {
             Vector2 cp = GameManager.Instance.checkpointPos;
@@ -74,19 +74,19 @@ public class PlatformGenerator : MonoBehaviour
 
     void SpawnPlatform()
     {
-        // META: la colocamos a la altura EXACTA a la que el jugador alcanzará scoreVictoria.
-        // 10 puntos = 1 unidad de altura, así que la altura de la meta es:
-        //   altura actual del jugador + (puntos que le faltan / 10)
+
+
+
         if (!metaGenerada && metaPrefab != null && GameManager.Instance != null
             && !GameManager.Instance.modoInfinito)
         {
             float puntosRestantes = scoreVictoria - GameManager.Instance.playerPoints;
             float yMeta = player.position.y + puntosRestantes / 10f;
 
-            // Solo cuando esa altura ya cae dentro de la zona que estamos generando
+
             if (yMeta <= nextY)
             {
-                // Nunca por debajo de la última plataforma (+ hueco mínimo) ni por encima de nextY (sigue siendo alcanzable)
+
                 yMeta = Mathf.Min(nextY, Mathf.Max(yMeta, prevY + minGap));
 
                 Instantiate(metaPrefab, new Vector3(0f, yMeta, 0f), Quaternion.identity);
@@ -97,7 +97,7 @@ public class PlatformGenerator : MonoBehaviour
             }
         }
 
-        // CHECKPOINT: cada X puntos sale una plataforma especial
+
         if (checkpointPrefab != null && !metaGenerada && nextY >= nextCheckpointY)
         {
             float cx = Random.Range(-maxX, maxX);
@@ -110,7 +110,7 @@ public class PlatformGenerator : MonoBehaviour
         float x = Random.Range(-maxX, maxX);
         GameObject platform;
 
-        // 1. Decidir QUÉ TIPO de plataforma spawnear
+
         float tiradaPlataforma = Random.value;
         bool specialPlatform = false;
         bool isVertical = false;
@@ -131,7 +131,7 @@ public class PlatformGenerator : MonoBehaviour
             platform = Instantiate(platformPrefab, new Vector3(x, nextY, 0), Quaternion.identity);
         }
 
-        // 2. Decidir QUÉ ÍTEM o ENEMIGO spawnear sobre/cerca de la plataforma
+
         if(!specialPlatform){
             float tiradaItem = Random.value;
 
@@ -167,7 +167,7 @@ public class PlatformGenerator : MonoBehaviour
 
     }
 
-    // Recuerda la altura de la última plataforma y sube nextY
+
     void Avanzar(float gap)
     {
         prevY = nextY;

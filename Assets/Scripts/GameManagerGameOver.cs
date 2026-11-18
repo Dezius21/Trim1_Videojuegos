@@ -2,11 +2,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-// Lo usan las escenas GameOver y Victory
+
 public class GameManagerGameOver : MonoBehaviour
 {
-    public TMP_Text scoreText;   // opcional (GameOver)
-    public TMP_Text timeText;    // GameOver y Victory
+    public TMP_Text scoreText;
+    public TMP_Text timeText;
 
     void Start()
     {
@@ -19,8 +19,8 @@ public class GameManagerGameOver : MonoBehaviour
 
     public void btnRetry()
     {
-        // Botón de la escena Victory (hasWon = true) = CONTINUAR: misma puntuación y tiempo, desde la meta.
-        // Botón de la escena GameOver = Retry: se conserva el tiempo.
+
+
         if (GameManager.Instance != null && GameManager.Instance.hasWon)
             GameManager.Instance.Continuar();
 
@@ -29,7 +29,7 @@ public class GameManagerGameOver : MonoBehaviour
 
     public void btnHome()
     {
-        // Volver al menú = partida nueva (borra checkpoint y tiempo)
+
         if (GameManager.Instance != null)
             GameManager.Instance.NuevaPartida();
 

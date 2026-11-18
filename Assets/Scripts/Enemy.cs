@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     public Sprite enemySprite;
     private SpriteRenderer spriteRenderer;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
         limiteX = (Camera.main.orthographicSize * Camera.main.aspect) - 0.5f;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         if (transform.position.y < Camera.main.transform.position.y - 5.5f)

@@ -12,7 +12,7 @@ public class CheckpointPlatform : MonoBehaviour
 
         GameManager.Instance.SetCheckpoint(transform.position, GameManager.Instance.playerPoints);
 
-        // Feedback visual para que el jugador sepa que se ha guardado
+
         SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
         if (sr != null) sr.color = colorActivado;
     }
