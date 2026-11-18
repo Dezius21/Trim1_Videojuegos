@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 177959931}
   - component: {fileID: 177959933}
   - component: {fileID: 177959932}
+  - component: {fileID: 177959934}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -256,6 +257,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177959930}
   m_CullTransparentMesh: 1
+--- !u!114 &177959934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177959930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d79b9d9f2c782f4a861d41ce039420c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  playerPoints: 0
+  currentTime: 0
+  isTimerRunning: 1
+  highScore: 0
+  bestTime: 0
+  winScoreTarget: 10000
+  hasWon: 0
+  isMultiplierActive: 0
+  hasCheckpoint: 0
+  checkpointPos: {x: 0, y: 0}
+  checkpointScore: 0
+  checkpointTime: 0
 --- !u!1 &245819422
 GameObject:
   m_ObjectHideFlags: 0
