@@ -38,7 +38,7 @@ public class PlatformGenerator : MonoBehaviour
 
     [Header("Meta / Victoria")]
     public GameObject metaPrefab;
-    public int scoreVictoria = 1000;   // para probar; luego lo subimos a 10000
+    public int scoreVictoria = 10000;   // para probar; luego lo subimos a 10000
     private bool metaGenerada = false;
 
     void Start()

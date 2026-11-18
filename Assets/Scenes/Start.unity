@@ -149,11 +149,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   playerPoints: 0
+  currentTime: 0
+  isTimerRunning: 1
   highScore: 0
+  bestTime: 0
+  winScoreTarget: 10000
+  hasWon: 0
   isMultiplierActive: 0
   hasCheckpoint: 0
   checkpointPos: {x: 0, y: 0}
   checkpointScore: 0
+  checkpointTime: 0
 --- !u!4 &232359302
 Transform:
   m_ObjectHideFlags: 0
@@ -348,9 +354,9 @@ MonoBehaviour:
   horizontalPlatformChance: 0
   verticalPlatformChance: 0
   coinOffsetY: 0.5
-  puntosPorCheckpoint: 300
+  puntosPorCheckpoint: 1000
   metaPrefab: {fileID: 8463544763800586295, guid: 0b60beeb39fa7c7458db35bedbe07fa1, type: 3}
-  scoreVictoria: 1000
+  scoreVictoria: 10000
 --- !u!4 &451848039
 Transform:
   m_ObjectHideFlags: 0
@@ -1212,6 +1218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPoints
   points: {fileID: 0}
+  timeText: {fileID: 0}
 --- !u!1 &1678037597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8463544763800586295, guid: 084db335848d3e74ea5890d82a85a38c, type: 3}
