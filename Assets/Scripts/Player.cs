@@ -6,8 +6,7 @@ public class Player : MonoBehaviour
     public float speed = 6f;
     public float jumpForce = 8f;
     private float limitX;
-    private bool isGrounded = true;
-    private float lastScoredY = float.NegativeInfinity;
+    //private bool isGrounded = true;
 
     private float maxAlturaY = 0f;
 
@@ -116,17 +115,17 @@ public class Player : MonoBehaviour
         CheckpointPlatform cp = collision.gameObject.GetComponentInParent<CheckpointPlatform>();
         if (cp != null) cp.Activate();
 
-        isGrounded = true;
+        //isGrounded = true;
         spriteRenderer.sprite = defaultSprite;
     }
-
+/*
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform"))
         {
             isGrounded = false;
         }
-    }
+    }*/
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -135,7 +134,7 @@ public class Player : MonoBehaviour
             Die();
         }
         else if (collider.CompareTag("Goal"))
-            Win();
+            Win(collider.transform.root.position);
     }
 
     public void AplicarSuperSalto(float multiplicador)
@@ -168,11 +167,13 @@ public class Player : MonoBehaviour
         SceneManager.LoadScene("GameOver");
     }
 
-    void Win()
+    void Win(Vector2 metaPos)
     {
         if (dead) return;
         dead = true;
-        Debug.Log("¡Victoria!");
+        if (GameManager.Instance != null)
+            GameManager.Instance.Victoria(metaPos);   // para el tiempo y guarda el mejor tiempo
+
         SceneManager.LoadScene("Victory");
     }
 }
